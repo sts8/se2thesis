@@ -7,6 +7,12 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Added
+
+- Add a `logoalignment` load-time option to choose whether the title-page
+  logo is aligned to the `left`, `center`, or `right` of the page.  The
+  default remains `right`.
+
 ## [v4.4.1] – 2026–04–03
 
 ### Fixed
@@ -19,7 +25,7 @@ and this project adheres to
 
 ## [v4.4.0] – 2024–10–18
 
-### Added
+### Added
 
 - `se2thesis` is now also available from
   [`MonsterWriter`](https://www.monsterwriter.com),
@@ -27,7 +33,7 @@ and this project adheres to
   documentation and also link their website and a YouTube video that
   demonstrates the usage of `se2thesis` within `MonsterWriter`.
 
-### Fixed
+### Fixed
 
 - Increase the `marginparsep` slightly to avoid that two-digit counter values
   run into the text block.
